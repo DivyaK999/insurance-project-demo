@@ -12,7 +12,7 @@
   - name: Start Docker Service
     command: sudo systemctl start docker
     
-  - name: To remove existing insure_me container
+  - name: To remove existing Insure_me container
     command: sudo docker rm -f insure_me
 
   - name: Deploy Docker Container
